@@ -4,7 +4,7 @@ variable "subscription_id" {
 }
 
 variable "resource_group" {
-  description = "RG where Log Analytics & Sentinel exist"
+  description = "RG where Log Analytics Workspace & Sentinel exist"
   type        = string
   default     = "rg-log-general"
 }

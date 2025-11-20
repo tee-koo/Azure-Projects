@@ -1,6 +1,5 @@
 output "firewall_public_ip" {
   value       = module.hub.firewall_public_ip
-  description = "Julk. IP – tämä näkyy curl ifconfig.me -komennossa!"
 }
 
 output "bastion_name" {

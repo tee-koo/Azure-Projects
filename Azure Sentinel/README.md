@@ -10,5 +10,5 @@ The alert rule is provisioned via Terraform and custom KQL query that analyzes f
 terraform init
 terraform plan -var-file="terraform.tfvars" -out deploy.plan
 terraform apply deploy.plan
-
+```  
 ![pic2](pic2.jpg)  

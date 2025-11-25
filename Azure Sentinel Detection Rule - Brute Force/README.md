@@ -16,5 +16,7 @@ This module deploys a **production-safe** Microsoft Sentinel analytics rule that
 terraform init
 terraform plan -var-file="terraform.tfvars" -out deploy.plan
 terraform apply deploy.plan
-```  
+```
+
+## Detection rule in Microsoft Sentinel  
 ![pic2](pic2.jpg)  

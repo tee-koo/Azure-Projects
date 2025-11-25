@@ -1,16 +1,10 @@
-variable "subscription_id" {
-  description = "Azure subscription ID"
+variable "log_analytics_workspace_id" {
+  description = "Full resource ID of the Log Analytics workspace with Microsoft Sentinel enabled"
   type        = string
 }
 
-variable "resource_group" {
-  description = "RG where Log Analytics Workspace & Sentinel exist"
-  type        = string
-  default     = "rg-log-general"
-}
-
-variable "log_analytics_name" {
-  description = "Existing LA workspace name"
-  type        = string
-  default     = "log-general"
+variable "threshold" {
+  description = "Number of failed sign-ins to trigger an alert (default: 10)"
+  type        = number
+  default     = 10
 }

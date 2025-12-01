@@ -10,7 +10,7 @@
 
 ## Requirements
 - Microsoft Sentinel must be enabled on the Log Analytics workspace  
-- Azure AD Sign-in logs must be streaming to the workspace
+- Entra ID Sign-in logs must be streaming to the workspace
 
 ## Usage  
 ```bash
